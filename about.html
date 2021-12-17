@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1-0">
+    <title>Præsentationsportfolio Abdel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/53be8b6e85.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <section class="sub-header">
+           <nav>
+               <a href="index.html"><img src="images/logo.png"></a>
+               <div class="nav-links" id="navLinks">
+                   <i class="fas fa-window-close" onclick="hideMenu()"></i>
+
+                   <ul>
+                      <li><a href="index.html">HOME</a></li>
+                       <li><a href="about.html">ABOUT</a></li>
+                       <li><a href="portfolio.html">PORTFOLIO</a></li>
+                       <li><a href="contact.html">CONTACT</a></li>
+                   </ul>
+               </div>
+               <i class="fas fa-bars" onclick="showMenu()"></i>
+
+
+
+           </nav>
+        <h1>About Me</h1>
+        
+
+   </section>
+    
+<!------ about me content ---->
+    
+<section class="about-me">
+    
+    <div class="row">
+        <div class=about-col>
+            <h1>About Me</h1>
+            <p>Hello, my name is Abdel Khassouk, and I am 20 years old. I was born and raised in a small city called Sønderborg, in Denmark. As I graduated from high school in Sønderborg, I decided to move from my parents and start at university in Odense. I investigated many different educations and stuck with my desire multimedia design. So, I moved to Odense to start this journey.<br> <br>
+                
+
+
+Since my childhood I have always had an interest in technology, editing and design. I used to edit YouTube videos for fun, and figured it wasn’t as hard as I thought. 
+
+As I became older, I realized that technology would one day conquer the world, in my opinion. Already now I have a huge interest for the metaverse. So I really want to work with other people with the same interest and create an NFT Project.
+</p>
+            <a href="contact.html" class="hero-btn red-btn">Contact Me</a>
+        </div>
+        <div class="about-col">
+            <img src="images/gang.png">
+        </div>   
+    
+    </div>
+    
+
+</section>
+    
+<!------ Footer ------>
+    
+<section class="footer">
+    <h4>About Me</h4>
+    <p>My name is Abdel Khassouk <br> I Study in Denmark, Odense to become a multimedia designer and web developer after that.</p>
+    <div class="icons">
+        <a href="https://www.facebook.com/huba.khassouk.9/" target="_blank"> <i class="fab fa-facebook-square"></i> </a>
+        <a href="https://www.instagram.com/hubakhassouk/" target="_blank"> <i class="fab fa-instagram-square"></i> </a>
+        <a href="https://twitter.com/AbdelKhassouk" target="_blank"> <i class="fab fa-twitter-square"></i> </a>
+
+    </div>
+    <p>Developed by Abdel Khassouk</p>
+</section>
+ 
+ <!---------   JavaScript / Toggle Menu    -------->
+<script>
+    
+   var navLinks = document.getElementById("navLinks"); 
+  
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+</script>    
+    
+</body>
+</html>
